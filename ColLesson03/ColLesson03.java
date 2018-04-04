@@ -14,7 +14,7 @@ public class ColLesson03 {
 
         int index = 0;
         while(!input.equals("e")){
-            if(index > max_size){
+            if(index >= max_size){
                 System.out.println("登録制限を越えました。登録済みのデータは以下になります。");
                 break;
             }
